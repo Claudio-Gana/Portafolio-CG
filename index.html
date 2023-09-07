@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/estilo.css">
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-html5 fa-bounce"></i>
+                        <h1>Claudio Gana</h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#servicios">Insignias</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/claudio-gana-romeo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Claudio-Gana" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador Fullstack & Ingeniero Comercial</h2>
+                        <p>Ingeniero Comercial y Desarrollador Full Stack con una pasión por la tecnología y los negocios. Mi enfoque multidisciplinario me permite abordar desafíos desde diferentes perspectivas, ya sea desarrollando soluciones tecnológicas innovadoras o creando estrategias empresariales efectivas. Con experiencia en la creación de aplicaciones web de extremo a extremo y un sólido entendimiento de los principios comerciales, aspiro a combinar lo mejor de ambos mundos para impulsar el éxito empresarial en la era digital.</p>
+                        <button id="boton1" class="btn btn-1">Descargar CV</button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="assets/img/programming-6119584_1280.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                        <div class="circulo">
+                            <img src="assets/img/html-css-landing-page-sobresaliente.png" alt="" height="50%" width="50%">
+                        </div>
+                    <h3>HTML / CSS Landing Page - Sobresaliente</h3>
+                    <p>Desarrolló una interfaz utilizando HTML y CSS, aplicando etiquetas estándar HTML5, CSS, incluyendo técnicas Flexbox, CSS Grids y Responsive Web Design.</p>
+                    <a href="https://www.credly.com/badges/f84f19d7-2eef-4b9f-9655-523669f03702/public_url" target="_blank">Leer Más</a>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card">
+                        <div class="circulo">
+                            <img src="assets/img/crud-dom-web-app-sobresaliente.png" alt="" height="50%" width="50%">
+                        </div>
+                    <h3>CRUD / DOM Web App - Sobresaliente</h3>
+                    <p>ormulario para crear, modificar y borrar elementos, utilizando objetos DOM y guardando los datos en window.localStorage.</p>
+                    <a href="https://www.credly.com/badges/0105cab7-2726-4dfe-8c9e-d984a60f7a70/public_url" target="_blank">Leer Más</a>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card">
+                        <div class="circulo">
+                            <img src="assets/img/html-css-landing-page-sobresaliente.png" alt="" height="50%" width="50%">
+                        </div>
+                    <h3>API/ React js Dashboard - Sobresaliente</h3>
+                    <p>Desarrolló un aplicación con conexión API.</p>
+                    <a href="https://www.credly.com/badges/34a6cf6c-dfba-4970-a9f0-173aa21c6de2/public_url" target="_blank">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                        <div class="circulo">
+                            <img src="assets/img/react-js-firebase-restaurant-app-sobresaliente.png" alt="" height="50%" width="50%">
+                        </div>
+                    <h3>React js/ Firebase - Sobresaliente</h3>
+                    <p>Desarrolló una aplicación para el servicio de un restaurante, contando con menú, horarios, información de contacto y un sistema de reserva.</p>
+                    <a href="https://www.credly.com/badges/db4efed1-1883-4936-864e-a3cfaabe9f61/public_url" target="_blank">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                        <div class="circulo">
+                            <img src="assets/img/e-commerce-fullstack-app-with-mongo-express-react-js-y-node-js-sobresaliente.png" alt="" height="50%" width="50%">
+                        </div>
+                    <h3>e-Commerce Fullstack App - Sobresaliente</h3>
+                    <p>Creó una aplicación FULLSTACK para ventas en línea con MERN, que incluye autenticación de usuarios y almacenamiento de compradores en una base de datos.</p>
+                    <a href="https://www.credly.com/badges/0b058276-8c51-4f34-9123-f41f82c55536/public_url" target="_blank">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                        <div class="circulo">
+                            <img src="assets/img/developer-web-full-stack-sobresaliente.png" alt="" height="50%" width="50%">
+                        </div>
+                    <h3>Developer Web Full Stack - Sobresaliente</h3>
+                    <p>Desarrollo Fullstack con React, HTML5, CSS, Pasarelas de Pago, MongoDB, GIT, Gráficas Interactivas, CRUD, y React.js.</p>
+                    <a href="https://www.credly.com/badges/3bc98776-973e-4dc3-897a-e5e430bb7989/public_url" target="_blank">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="95">
+                                95%
+                            </div>
+                            <h2>HTML</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="85">
+                                85%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MONGODB</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>REACT</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                80%
+                            </div>
+                            <h2>BOOSTRAP</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item programacion">
+                <img src="assets/img/relojpagina.png" alt="">
+                <div class="info">
+                    <h3>Venta Reloj</h3>
+                    <span>html</span><span>css</span><span>javascript</span><span>MERN</span><span>MongoDB</span><span>Pasarela de pagos</span>
+                    <a href="https://ahorasi-13qm.onrender.com/" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="assets/img/crud.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span><span>MERN</span><span>MongoDB</span>
+                    <a href="https://claudio-gana.github.io/SegundaEntrega/" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="assets/img/api.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://claudio-gana.github.io/Tercera-Entrega/" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="assets/img/restaurante.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://claudio-gana.github.io/proyecto4/" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="assets/img/Calculadora.png" alt="">
+                <div class="info">
+                    <h3>Calculadora</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://claudio-gana.github.io/Calculadora/" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="assets/img/trabajo6.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="assets/img/trabajo7.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="assets/img/trabajo8.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="assets/img/trabajo9.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>cganar@gmail</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+569 78260000</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Chile</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Santiago</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Deserchos reservados</p>
+    </footer>
+    <script src="assets/app.js"></script>
+</body>
+</html>
